@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./img/cropped-Favicon-01.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <title>Institución Educativa - La Escuelita</title>
+</head>
+<body>
+    <div id="root" style="text-align: center; color: black;"> </div>
+
+    <div class="content1" style="text-align: center;"> <img src="./img/cropped-Favicon-01.png" alt=""> </div>
+
+    <ul>
+    <li><a href="Index.html">Inicio</a></li>
+    <li><a href="Contactenos.html">Contactenos</a></li>
+    <li><a href="#matriculas">Matriculas</a></li>
+    <li><a href="#login">Inciar Sesión</a></li>
+  </ul>
+
+
+    <div class="container">
+        <div id="after_submit"></div>
+        <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+          <div class="row">
+            <label class="required" for="name">Your name:</label><br />
+            <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+            <span id="name_validation" class="error_message"></span>
+          </div>
+          <div class="row">
+            <label class="required" for="email">Your email:</label><br />
+            <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+            <span id="email_validation" class="error_message"></span>
+          </div>
+          <div class="row">
+            <label class="required" for="message">Your message:</label><br />
+            <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+            <span id="message_validation" class="error_message"></span>
+          </div>
+            
+            <input id="submit_button" type="submit" value="Send email" />
+        </form>
+
+    </div>
+    <footer style="color: blue; text-align: center;" ><h5>La escuelita - Todos los derechos reservados &copy 2015.</h5></footer>
+</body>
+</html>
